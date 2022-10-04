@@ -8,6 +8,8 @@
   <name>SpringBasic Maven Webapp</name>
   <properties>
     <spring.version>5.3.23</spring.version>
+    <maven.compiler.source>16</maven.compiler.source>
+    <maven.compiler.target>16</maven.compiler.target>
   </properties>
   <url>http://maven.apache.org</url>
   <dependencies>
