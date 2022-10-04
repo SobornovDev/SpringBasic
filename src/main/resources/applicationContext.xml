@@ -14,5 +14,9 @@
     <bean id="musicBean"
           class="ru.sobornov.spring.basic.music.ClassicalMusic">
     </bean>
+    <bean id="musicPlayer"
+          class="ru.sobornov.spring.basic.player.MusicPlayer">
+        <constructor-arg ref = "musicBean"/>
+    </bean>
 
 </beans>
