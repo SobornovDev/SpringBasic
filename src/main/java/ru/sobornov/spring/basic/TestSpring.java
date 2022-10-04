@@ -1,6 +1,8 @@
 package ru.sobornov.spring.basic;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
+import ru.sobornov.spring.basic.music.Music;
+import ru.sobornov.spring.basic.player.MusicPlayer;
 
 /**
  * @author : Sobornov Vladimir
@@ -12,6 +14,10 @@ public class TestSpring {
                 "applicationContext.xml");
         TestBean testBean = context.getBean("testBean", TestBean.class);
         System.out.println(testBean.getName());
+
+        Music music = context.getBean("musicBean", Music.class);
+        MusicPlayer player = new MusicPlayer(music);
+        player.getMusic();
         context.close();
     }
 }

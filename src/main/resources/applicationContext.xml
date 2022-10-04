@@ -11,5 +11,8 @@
           class="ru.sobornov.spring.basic.TestBean">
         <constructor-arg value="Vladimir"/>
     </bean>
+    <bean id="musicBean"
+          class="ru.sobornov.spring.basic.music.ClassicalMusic">
+    </bean>
 
 </beans>
