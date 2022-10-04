@@ -17,6 +17,7 @@
     <bean id="musicPlayer"
           class="ru.sobornov.spring.basic.player.MusicPlayer">
         <constructor-arg ref = "musicBean"/>
+        <property name="volume" value="50"/>
     </bean>
 
 </beans>
