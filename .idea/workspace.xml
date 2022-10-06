@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a0a3385-d7e0-43a7-8376-96cb5f8aff43" name="Changes" comment="Inversion of Control Example&#10;Injecting Music objects into MusicPlayer&#10;Added dependency injection via XML + setter">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+    <list default="true" id="1a0a3385-d7e0-43a7-8376-96cb5f8aff43" name="Changes" comment="add .properties file">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/sobornov/spring/basic/enums/PassportType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/sobornov/spring/basic/questionnairies/PrimaryQuestionnaire.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/sobornov/spring/basic/questionnairies/Questionnaire.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/sobornov/spring/basic/questionnairies/SecondaryQuestionnaire.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/sobornov/spring/basic/queues/QuestionnaireQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/sobornov/spring/basic/TestSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/sobornov/spring/basic/TestSpring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/sobornov/spring/basic/music/ClassicalMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/sobornov/spring/basic/music/ClassicalMusic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +23,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -38,6 +45,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/Users/codegod/IdeaProjects/SpringBasic",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
@@ -107,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664923962840</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add .properties file">
+      <created>1664954246895</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1664954246895</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -127,6 +142,7 @@
     <MESSAGE value="Inversion of Control Example&#10;Injecting Music objects into MusicPlayer" />
     <MESSAGE value="Inversion of Control Example&#10;Injecting Music objects into MusicPlayer&#10;Added dependency injection via XML + constructor" />
     <MESSAGE value="Inversion of Control Example&#10;Injecting Music objects into MusicPlayer&#10;Added dependency injection via XML + setter" />
-    <option name="LAST_COMMIT_MESSAGE" value="Inversion of Control Example&#10;Injecting Music objects into MusicPlayer&#10;Added dependency injection via XML + setter" />
+    <MESSAGE value="add .properties file" />
+    <option name="LAST_COMMIT_MESSAGE" value="add .properties file" />
   </component>
 </project>
