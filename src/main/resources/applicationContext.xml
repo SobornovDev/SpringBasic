@@ -14,7 +14,17 @@
         <constructor-arg index="0" value="Vladimir" />
         <constructor-arg index="1" value="Sobornov" />
         <constructor-arg index="2" value="true" />
-
+    </bean>
+    <bean id="secondaryQuestionnaire"
+          class="ru.sobornov.spring.basic.questionnairies.SecondaryQuestionnaire"
+          factory-method="createSecondaryQuestionnaire">
+        <constructor-arg index="0" value="RESIDENT_CARD" />
+        <constructor-arg index="1" value="01.01.2030" />
+    </bean>
+    <bean id="mqMock"
+    class="ru.sobornov.spring.basic.queues.QuestionnaireQueue"
+    scope="singleton">
+        <constructor-arg ref = "primaryQuestionnaire"/>
     </bean>
     <bean id="testBean"
           class="ru.sobornov.spring.basic.TestBean">

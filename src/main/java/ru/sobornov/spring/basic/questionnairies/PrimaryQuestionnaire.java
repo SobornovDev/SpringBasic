@@ -8,6 +8,7 @@ import java.util.UUID;
  **/
 public class PrimaryQuestionnaire implements Questionnaire{
     private final UUID id = UUID.randomUUID();
+    private final String type = "Primary";
     private String name;
     private String surname;
     private String isResident;
@@ -22,5 +23,15 @@ public class PrimaryQuestionnaire implements Questionnaire{
     public void send(Questionnaire questionnaire) {
         System.out.println("primary questionnaire send");
 
+    }
+
+    @Override
+    public UUID getId() {
+        return id;
+    }
+
+    @Override
+    public String getType() {
+        return type;
     }
 }

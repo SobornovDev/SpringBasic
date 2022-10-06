@@ -5,6 +5,7 @@ import ru.sobornov.spring.basic.music.Music;
 import ru.sobornov.spring.basic.player.MusicPlayer;
 import ru.sobornov.spring.basic.questionnairies.PrimaryQuestionnaire;
 import ru.sobornov.spring.basic.questionnairies.Questionnaire;
+import ru.sobornov.spring.basic.queues.QuestionnaireQueue;
 
 /**
  * @author : Sobornov Vladimir
@@ -24,8 +25,8 @@ public class TestSpring {
         player.getMusic();
         System.out.println(player == anotherPlayer); //they are equal
 
-        Questionnaire firstQuestionnaire = context.getBean("primaryQuestionnaire", PrimaryQuestionnaire.class);
-        firstQuestionnaire.send(firstQuestionnaire);
+        QuestionnaireQueue questionnaireQueue = context.getBean("mqMock", QuestionnaireQueue.class);
+        questionnaireQueue.createMessage();
         context.close();
     }
 }
