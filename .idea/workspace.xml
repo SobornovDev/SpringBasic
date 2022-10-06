@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a0a3385-d7e0-43a7-8376-96cb5f8aff43" name="Changes" comment="factory method">
+    <list default="true" id="1a0a3385-d7e0-43a7-8376-96cb5f8aff43" name="Changes" comment="added rare @Qualifier use case">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/sobornov/spring/basic/TestSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/sobornov/spring/basic/TestSpring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/sobornov/spring/basic/queues/QuestionnaireQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/sobornov/spring/basic/queues/QuestionnaireQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +132,21 @@
       <option name="project" value="LOCAL" />
       <updated>1665090676314</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="fixed Readme description">
+      <created>1665091312207</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1665091312207</updated>
+    </task>
+    <task id="LOCAL-00010" summary="fixed Readme description">
+      <created>1665091333686</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1665091333686</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -151,6 +168,8 @@
     <MESSAGE value="Inversion of Control Example&#10;Injecting Music objects into MusicPlayer&#10;Added dependency injection via XML + setter" />
     <MESSAGE value="add .properties file" />
     <MESSAGE value="factory method" />
-    <option name="LAST_COMMIT_MESSAGE" value="factory method" />
+    <MESSAGE value="fixed Readme description" />
+    <MESSAGE value="added rare @Qualifier use case" />
+    <option name="LAST_COMMIT_MESSAGE" value="added rare @Qualifier use case" />
   </component>
 </project>

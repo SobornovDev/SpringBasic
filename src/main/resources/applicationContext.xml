@@ -8,6 +8,7 @@
         http://www.springframework.org/schema/context/spring-context.xsd">
 
     <context:property-placeholder location="classpath:application.properties"/>
+    <context:component-scan base-package="ru.sobornov.spring.basic.*"/>
     <bean id="primaryQuestionnaire"
           class="ru.sobornov.spring.basic.questionnairies.PrimaryQuestionnaire"
         factory-method="createPrimaryQuestionnaire">
@@ -21,11 +22,11 @@
         <constructor-arg index="0" value="RESIDENT_CARD" />
         <constructor-arg index="1" value="01.01.2030" />
     </bean>
-    <bean id="mqMock"
+    <!--bean id="questionnaireQueue"
     class="ru.sobornov.spring.basic.queues.QuestionnaireQueue"
     scope="singleton">
         <constructor-arg ref = "primaryQuestionnaire"/>
-    </bean>
+    </bean-->
     <bean id="testBean"
           class="ru.sobornov.spring.basic.TestBean">
         <constructor-arg value="Vladimir"/>

@@ -1,10 +1,7 @@
 package ru.sobornov.spring.basic;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-import ru.sobornov.spring.basic.music.Music;
 import ru.sobornov.spring.basic.player.MusicPlayer;
-import ru.sobornov.spring.basic.questionnairies.PrimaryQuestionnaire;
-import ru.sobornov.spring.basic.questionnairies.Questionnaire;
 import ru.sobornov.spring.basic.queues.QuestionnaireQueue;
 
 /**
@@ -25,7 +22,7 @@ public class TestSpring {
         player.getMusic();
         System.out.println(player == anotherPlayer); //they are equal
 
-        QuestionnaireQueue questionnaireQueue = context.getBean("mqMock", QuestionnaireQueue.class);
+        QuestionnaireQueue questionnaireQueue = context.getBean("questionnaireQueue", QuestionnaireQueue.class);
         questionnaireQueue.createMessage();
         context.close();
     }

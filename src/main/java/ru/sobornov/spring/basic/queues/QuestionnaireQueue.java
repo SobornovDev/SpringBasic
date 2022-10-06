@@ -1,5 +1,8 @@
 package ru.sobornov.spring.basic.queues;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Component;
 import ru.sobornov.spring.basic.questionnairies.Questionnaire;
 
 import java.util.ArrayList;
@@ -9,11 +12,13 @@ import java.util.List;
  * @author : Sobornov Vladimir
  * @since : 06.10.2022
  **/
+@Component
 public class QuestionnaireQueue {
     private Questionnaire questionnaire;
     private List<Questionnaire> mqMock = new ArrayList<>();
 
-    public QuestionnaireQueue(Questionnaire questionnaire) {
+    @Autowired
+    public QuestionnaireQueue(@Qualifier("primaryQuestionnaire")  Questionnaire questionnaire) {
         this.questionnaire = questionnaire;
     }
 
