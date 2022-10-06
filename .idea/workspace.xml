@@ -6,12 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1a0a3385-d7e0-43a7-8376-96cb5f8aff43" name="Changes" comment="factory method">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/sobornov/spring/basic/TestSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/sobornov/spring/basic/TestSpring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/sobornov/spring/basic/questionnairies/PrimaryQuestionnaire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/sobornov/spring/basic/questionnairies/PrimaryQuestionnaire.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/sobornov/spring/basic/questionnairies/Questionnaire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/sobornov/spring/basic/questionnairies/Questionnaire.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/sobornov/spring/basic/questionnairies/SecondaryQuestionnaire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/sobornov/spring/basic/questionnairies/SecondaryQuestionnaire.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/sobornov/spring/basic/queues/QuestionnaireQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/sobornov/spring/basic/queues/QuestionnaireQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665083161255</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="factory method">
+      <created>1665090676314</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1665090676314</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
